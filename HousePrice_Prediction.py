@@ -16,7 +16,7 @@ from sklearn.model_selection import train_test_split
 # In[36]:
 
 
-df = pd.read_csv('Downloads/kc_house_data.csv', usecols=['bedrooms', 'bathrooms', 'sqft_living', 'grade', 'price', 'yr_built'])
+df = pd.read_csv('kc_house_data.csv', usecols=['bedrooms', 'bathrooms', 'sqft_living', 'grade', 'price', 'yr_built'])
 
 
 # In[37]:
